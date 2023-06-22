@@ -1,13 +1,12 @@
 #include "main.h"
-
 /**
- * main - Entry point
- *
- * Return: 0 for successful execution
+ * main - print _putchar
+ * is written by mbah
+ * Return: 0
  */
-int main(void)
-{
-	putchar('');
+	int main(void)
+	{
+	_putchar('_');
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
@@ -17,4 +16,5 @@ int main(void)
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-}
+	}
+
